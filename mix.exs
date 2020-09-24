@@ -33,6 +33,8 @@ defmodule MuxLiveview.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:mux, "~> 1.8.0"},
+      {:porcelain, "~> 2.0.3"},
       {:phoenix, "~> 1.5.5"},
       {:phoenix_live_view, "~> 0.14.6"},
       {:floki, ">= 0.27.0", only: :test},

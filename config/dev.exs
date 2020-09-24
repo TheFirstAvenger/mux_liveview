@@ -65,3 +65,7 @@ config :phoenix, :stacktrace_depth, 20
 
 # Initialize plugs at runtime for faster development compilation
 config :phoenix, :plug_init_mode, :runtime
+
+config :mux,
+  access_token_id: "access_token_id",
+  access_token_secret: "access_token_secret"
